@@ -1,5 +1,5 @@
-import Layout from '/components/layout'
-import Time from '/components/time'
+import Layout from './components/layout'
+import Time from './components/time'
 
 function HomePage() {  
   return (
