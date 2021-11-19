@@ -23,6 +23,18 @@ body {
     font-size: 86px;
 }
 
+.question, .time {
+    font-family: 'Righteous', cursive;
+}
+
+.question {
+    font-size: 31px;
+}
+
+.time {
+    font-size: 24px;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
