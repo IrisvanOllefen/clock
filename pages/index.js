@@ -1,7 +1,6 @@
-import Layout from '/components/Layout'
-import Time from '/components/time'
-
 function HomePage() {  
+import Layout from '/components/layout'
+import Time from '/components/time'
 
   return (
       <div className="wrapper">
