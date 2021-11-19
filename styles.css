@@ -1,5 +1,36 @@
 body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin-top: 50px;
+    background: rgb(34,193,195);
+    background: linear-gradient(319deg, rgba(34,193,195,1) 0%, rgba(141,190,122,1) 49%, rgba(253,187,45,1) 100%);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    border-radius: 40px;
+    box-shadow: 0 0 30px grey;
+}
+
+.title {
+    font-family: 'Faster One', cursive;
+    font-size: 86px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
