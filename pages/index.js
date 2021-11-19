@@ -1,7 +1,7 @@
-function HomePage() {  
 import Layout from '/components/layout'
 import Time from '/components/time'
 
+function HomePage() {  
   return (
       <div className="wrapper">
         <Layout />
