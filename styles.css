@@ -9,7 +9,7 @@ body {
     align-items: center;
     padding: 20px;
     padding-bottom: 60px;
-    margin-top: 50px;
+    margin: 50px;
     background: rgb(34,193,195);
     background: linear-gradient(319deg, rgba(34,193,195,1) 0%, rgba(141,190,122,1) 49%, rgba(253,187,45,1) 100%);
     background-size: 200% 200%;
@@ -21,6 +21,18 @@ body {
 .title {
     font-family: 'Faster One', cursive;
     font-size: 86px;
+}
+
+.question, .time {
+    font-family: 'Righteous', cursive;
+}
+
+.question {
+    font-size: 31px;
+}
+
+.time {
+    font-size: 24px;
 }
 
 @keyframes gradient {
